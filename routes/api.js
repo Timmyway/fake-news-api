@@ -5,7 +5,7 @@ const router = express.Router();
 const UserController = require('../controllers/UserController');
 const PostController = require('../controllers/PostController');
 
-router.get('/users', UserController.getUsers);
-router.get('/posts', PostController.getPosts);
+router.get('/api/users', UserController.getUsers);
+router.get('/api/posts', PostController.getPosts);
 
 module.exports = router;
