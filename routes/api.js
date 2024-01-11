@@ -9,6 +9,7 @@ router.get('/api/users', UserController.getUsers);
 router.post('/api/users', UserController.createUsers)
 router.get('/api/post/:postId', PostController.getPost);
 router.get('/api/post', PostController.getPosts);
+router.get('/api/posts/find', PostController.getPosts);
 router.post('/api/post', PostController.bulkInsertPost);
 
 module.exports = router;

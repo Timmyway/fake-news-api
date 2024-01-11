@@ -5,9 +5,9 @@ const postList = require('../datas/posts.json');
 exports.getPosts = async (req, res) => {
 	console.log('==> Get list of posts...');
 	try {
-		const posts = await Post.find({}, 5);
+		const posts = await Post.find({}, 10);
 		console.log(`Found ${posts?.docs?.length} posts.`);
-		return res.json(posts);
+		return res.json(posts.docs);
 	} catch(error) {
 		return res.json({error})
 	}	
