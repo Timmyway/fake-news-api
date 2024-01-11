@@ -1,0 +1,23 @@
+[
+    {
+        "_id": "6dc07fba-5a7f-42d2-84e4-f0c1eaff9325",
+        "type": "users",
+        "pseudo": "john_doe",
+        "email": "john.doe@example.com",
+        "avatar": "/images/avatar-man.jpg"
+    },
+    {
+        "_id": "d23b76c9-ca84-454e-8379-ddfad96ecdc0",
+        "type": "users",
+        "pseudo": "alice_smith",
+        "email": "alice.smith@example.com",
+        "avatar": "/images/avatar-woman.jpg"
+    },
+    {
+        "_id": "953d86cd-8a26-47e6-9d5f-40a5128fa332",
+        "type": "users",
+        "pseudo": "mike_jones",
+        "email": "mike.jones@example.com",
+        "avatar": "/images/avatar-man.jpg"
+    }
+]
